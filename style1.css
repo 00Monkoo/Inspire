@@ -1,0 +1,83 @@
+/*to make sure there isnt any extra space between the corners of the design*/
+body{
+    margin: 0px;
+}
+/*for the "Inspire" text in the home page*/
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin-top: 0px;
+}
+/*for the 'People' text in the people page*/
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0px;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin-top: 0px;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px; 
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;    
+}
+/*for the background of the home page*/
+.bgimage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('BG.jpg');
+    background-size: cover;
+}
+/*for the background of the people page*/
+.bgimage_p{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+}
+/*for the navigation bar color and etc*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(80, 77, 77);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden
+}
+
+/*for the navigation bar text*/
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    display: block;
+    margin: 30px
+}
+
+/*to make the navigation bar darker in color when you hover over it*/
+.navbar a:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+/*to make the list of optioins in the navigation bar to be in the right side*/
+.navbar li{
+    float: right
+}
